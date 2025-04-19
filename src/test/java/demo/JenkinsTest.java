@@ -10,6 +10,6 @@ public class JenkinsTest {
 public void launch() {
 	WebDriver driver=new ChromeDriver();
 	driver.get("https://demowebshop.tricentis.com/");
-	Reporter.log("DemoWebshop Launched successfully");
+	Reporter.log("DemoWebshop Launched successfully",true);
 }
 }
